@@ -31,8 +31,8 @@ app = FastAPI(
     description="A RESTful API for managing courses, students, and enrollments using FastAPI.",
     version="1.0",
     contact={
-        "name": "Ashwina K N",
-        "email": "ashwina@example.com"
+        "name": "D Vergin Jenifer",
+        "email": "jenifer@example.com"
     },
     lifespan=lifespan
 )
