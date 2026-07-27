@@ -4,9 +4,8 @@ from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
 
 
-# --------------------------------------------------
+
 # Task 45
-# --------------------------------------------------
 
 @pytest.mark.parametrize(
     "message",
@@ -29,10 +28,7 @@ def test_simple_form_submission(driver, base_url, message):
 
     assert output.text == "Wrong Message"
 
-
-# --------------------------------------------------
 # Task 43
-# --------------------------------------------------
 
 def test_checkbox_demo(driver, base_url):
 
@@ -51,9 +47,7 @@ def test_checkbox_demo(driver, base_url):
     assert not checkbox.is_selected()
 
 
-# --------------------------------------------------
 # Task 49
-# --------------------------------------------------
 
 def test_dropdown_selection(driver, base_url):
 
